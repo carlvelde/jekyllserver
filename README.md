@@ -11,3 +11,11 @@ For the AppService instance, under Settings add a property named PORT and set it
 Upload the Jekyll site to /site/wwwroot/
 
 Restart the AppService
+
+## Running it locally
+
+To run it locally start with the following docker cmd and map your jekyll site root into the container like this:
+
+ ```
+>docker run -p 4000:4000 carlvelde/jekyllserver -v <local/host path to your jekyll root>:/home/site/wwwroot
+ ```
