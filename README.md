@@ -1,8 +1,8 @@
 # jekyllserver
 
-A docker image for running jekyll on Azure AppService. 
+A docker image for running jekyll on Azure AppService. It's very simple and based on the official jekyll docker image.
 
-##Instructions
+## Instructions
 
 Create a new AppService instance with Linux and a custom Docker image. Use the public docker repo and use CARLVELDE/JEKYLLSERVER:LATEST as the image.
 
